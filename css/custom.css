@@ -1,0 +1,407 @@
+/*
+======================================================
+
+					MEDIA QUERIES
+
+======================================================
+*/
+
+/* Portrait tablets and small desktops */
+@media screen and (min-width: 768px) {
+
+
+	.intro-body .intro-heading {
+		text-transform: uppercase;
+		font-family: "Montserrat", Helvetica, Arial, sans-serif;
+		font-size: 72px  !important;
+		line-height: 72px !important;
+		margin-bottom: 10px !important;
+	}
+
+	.intro-body .intro-subheading {
+		font-family: "Open Sans", Helvetica, Arial, sans-serif;
+		font-size: 52px !important;
+		line-height: 52px !important;
+		margin-bottom: 75px !important;
+	}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 767px) {
+	html, body {
+		height:auto !important;
+	}
+
+	.intro-body {
+		padding: 100px 0 !important;
+	}
+
+	.intro-body .intro-heading {
+		text-transform: uppercase;
+		font-family: "Montserrat", Helvetica, Arial, sans-serif;
+		font-size: 52px  !important;
+		line-height: 52px !important;
+		margin-bottom: 10px !important;
+	}
+
+	.intro-body .intro-subheading {
+		font-family: "Open Sans", Helvetica, Arial, sans-serif;
+		font-size: 42px !important;
+		line-height: 42px !important;
+		margin-bottom: 40px !important;
+	}
+
+	.navbar-transparent {
+		background-color: black !important;
+	}
+}
+
+/*height*/
+@media screen and (max-height: 480px ){
+	html, body {
+		height:auto !important;
+	}
+}
+
+/*
+======================================================
+
+					GENERAL
+
+======================================================
+*/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+	background-color: #000;
+	color: #fff;
+}
+
+.btn.btn-outline {
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.btn.btn-outline:hover, 
+.btn.btn-outline:focus, 
+.btn.btn-outline:active,
+.btn.btn-outline.active {
+	border: 2px solid #f62459;
+	background-color: #f62459;
+	color: #fff;
+}
+
+.fade-in-color{
+	-o-transition:.35s;
+	-ms-transition:.35s;
+	-moz-transition:.35s;
+	-webkit-transition:.35s;
+	transition:.35s;
+}
+
+section {
+	padding: 125px 0;
+}
+
+.section-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 38px;
+}
+
+.section-subheading{
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+/*
+======================================================
+
+					FOOTER
+
+======================================================
+*/
+
+footer {
+	height: 4%;
+	font-size: 8px;
+	padding: 5px 0;
+	color: #6C7A89;
+	background-color: #100F1F;
+}
+
+.freepik-link {
+	color: #6C7A89;
+	text-decoration: none;
+
+}
+
+
+
+
+/*
+======================================================
+
+					NAVIGATION
+
+======================================================
+*/
+
+.navbar-transparent {
+	background-color: transparent;
+	border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:active
+.navbar-inverse .navbar-nav > li > a.active {
+	color: #f50057;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:active,
+.navbar-inverse .navbar-brand.active {
+	color: #f50057;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: #fff;
+	font-weight: 700;
+	font-size: 22px;
+	padding: 2px 7px 2px 7px !important;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:active,
+.navbar-inverse .navbar-toggle.active {
+	color: #fff;
+	background-color: #f50057;
+	border-color: #f50057;
+
+}
+
+/*
+======================================================
+
+					INTRODUCTION
+
+======================================================
+*/
+
+.intro {
+	height: 100%;
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("../img/introbg.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.intro-body {
+	padding-top: 175px;
+}
+
+.intro-body .intro-heading {
+	text-transform: uppercase;
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	font-size: 78px;
+	line-height: 78px;
+	margin-bottom: 10px;
+}
+
+.intro-body .intro-subheading {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 55px;
+	line-height: 55px;
+	margin-bottom: 75px;
+}
+
+.header-btn {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+
+/*
+======================================================
+
+					ABOUT SECTION
+
+======================================================
+*/
+
+#about {
+	height: 100%;
+	background-color: #fff;
+	color: #000;
+}
+
+#about .fa-stack-2x {
+	color: #f50057;
+}
+
+.about-icons {
+	padding: 60px 0;
+}
+
+.about-heading {
+	font-weight: 700;
+}
+
+
+
+
+/*
+======================================================
+
+					PORTFOLIO SECTION
+
+======================================================
+*/
+
+#portfolio {
+	background-color: #f0f1f5;
+	color: #000;
+}
+
+.port-collection{
+	padding-top: 75px;
+}
+
+.portbox{
+	width:100%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 50px;
+}
+
+.port-image{
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.5);
+}
+
+.port-image:hover,
+.port-image:focus
+.port-image:active,
+.port-image.active {
+	box-shadow: 0 7px 9px 0 rgba(0,0,0,0.6);
+	opacity: 0.8;
+}
+
+.no-gutter [class*="-6"] {
+	padding-left:0;
+	padding-right:0;
+}
+
+.close{
+	font-size: 230%;
+	opacity: 0.6;
+}
+
+.close:hover,
+.close:focus,
+.close:active,
+.close.active {
+	color: #f1c40f;
+	opacity: 1;
+}
+
+.modal{
+	color: #000;
+}
+
+/*
+======================================================
+
+					CONTACT SECTION
+
+======================================================
+*/
+
+#contact {
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)),  url("../img/contactbg.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 100%;
+}
+
+.fa-heart {
+	color: #f50057;
+}
+
+.contact-icons {
+	padding: 45px 0;
+}
+
+#contact .fa-stack-2x {
+	color: #fff;
+}
+
+#contact .fa-stack-1x{
+	color: #f62459;
+}
+
+#contact .fa-stack:hover .fa-stack-2x,
+#contact .fa-stack:focus .fa-stack-2x,
+#contact .fa-stack:active .fa-stack-2x,
+#contact .fa-stack.active .fa-stack-2x {
+	color: #f50057;
+}
+
+#contact .fa-stack:hover .fa-stack-1x,
+#contact .fa-stack:focus .fa-stack-1x,
+#contact .fa-stack:active .fa-stack-1x,
+#contact .fa-stack.active .fa-stack-1x {
+	color: #fff;
+}
+
+.contact-icon-caption{
+	padding: 15px 0;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 24px;
+}
+
+.fa-map-marker {
+	color: #f50057;
+}
+
+.address-info{
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 10px 0;
+	font-weight: 700;
+}
